@@ -1,0 +1,36 @@
+{
+  "name": "strongoose-nest",
+  "version": "0.1.0",
+  "description": "Strongoose Module for NestJS",
+  "author": "Fadion Dashi <Fadion Dashi>",
+  "license": "MIT",
+  "keywords": [
+    "mongoose",
+    "typescript",
+    "model",
+    "strongoose",
+    "nestjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadion/strongoose-nest.git"
+  },
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "lint": "tslint --project tsconfig.json"
+  },
+  "peerDependencies": {
+    "strongoose": "^0.1.5",
+    "mongoose": "^5.0.0",
+    "reflect-metadata": "^0.1.13",
+    "@nestjs/common": "^5.0.0",
+    "@nestjs/core": "^5.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  }
+}
